@@ -177,17 +177,82 @@ main section{
 }
 
 /* Resume section styles */
-.resume-column-title{
+
+.resume-column-title, .resume-item-title{
     font-size: 30px;
     font-weight: 700;
+    color: #474747;
 }
 
 .resume-container{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 50px;
 }
 
-.hr{
-    gap: 10px;
-    color: red;    
+.resume-item-description, .resume-item-institute{
+    color: #757575;
+    font-size: 16px;
 }
+
+.resume-item-institute{
+    font-size: 20;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.Download-CV{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Footer Styles */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 70px;
+    gap: 115px;
+    
+    
+}
+
+.footer-description{
+    color: #474747;
+    max-width: 520px;
+    text-align: left;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], 
+textarea {
+    display: block;
+    margin-bottom: 25px ;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0px;
+    background-color: #FFF;
+    width:100%;
+}
+
+.social-links a{
+    margin-left: 25px;
+}
+
+.section-title{
+    text-align: left;
+}
+
