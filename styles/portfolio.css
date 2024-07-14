@@ -61,7 +61,7 @@ nav a{
     color: #474747;
 }
 
-/* header related styles */
+/* header related styles */ 
 .header{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url('../images/developer.png');
@@ -109,7 +109,7 @@ nav a{
     max-width: 500px;
 }
 
-/* Main sections styles */
+/* Main sections styles */ 
 main{
     max-width: 1140px;
     margin: 0px auto;
@@ -169,7 +169,7 @@ main section{
     color: #757575;
 }
 
-/* Resume section styles */
+/* Resume section styles */ 
 
 .resume-column-title, .resume-item-title{
     font-size: 30px;
@@ -179,7 +179,7 @@ main section{
 
 .resume-container{
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     gap: 50px;
 }
 
@@ -247,3 +247,17 @@ textarea {
     text-align: left;
 }
 
+
+/* Media Query Responsive */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width : 576px){
+    #what-i-do-description{
+        padding: 10px;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+}
