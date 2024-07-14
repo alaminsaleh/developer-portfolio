@@ -257,7 +257,16 @@ textarea {
     #what-i-do-description{
         padding: 10px;
     }
-    .skills-container{
+    .skills-container,.about-info-container, footer, .resume-container{
         flex-direction: column;
+    }
+    .about, footer{
+        padding: 30px;
+    }
+    .footer-column{
+        width: calc(100% - 60px);
+    }
+    .section-title{
+        margin-top: 0;
     }
 }
